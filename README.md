@@ -1,5 +1,6 @@
 # Vibration-Meter-Using-LM3915
 Overview
+
 A vibration monitoring system using a piezoelectric sensor and LM3915 LED driver IC. The system converts mechanical vibrations into electrical signals and displays vibration intensity through a 10-level LED bar graph.
 
 Features
@@ -10,10 +11,9 @@ Features
 5. Easy sensor interfacing
 
 Components Used
-
-LM3915 IC
-Piezoelectric Sensor
-LEDs (10)
-Resistors
-Capacitors
-Power Supply
+1. LM3915 IC
+2. Piezoelectric Sensor
+3. LEDs (10)
+4. Resistors
+5. Capacitors
+6. Power Supply
