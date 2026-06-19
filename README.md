@@ -10,7 +10,9 @@ Real-time vibration detection
 Analog signal visualization
 Low-cost implementation
 Easy sensor interfacing
+
 Components Used
+
 LM3915 IC
 Piezoelectric Sensor
 LEDs (10)
