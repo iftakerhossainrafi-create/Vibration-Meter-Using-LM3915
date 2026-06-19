@@ -5,15 +5,11 @@ A vibration monitoring system using a piezoelectric sensor and LM3915 LED driver
 
 Features
 
-Real-time vibration detection
-
-10-level LED indication
-
-Analog signal visualization
-
-Low-cost implementation
-
-Easy sensor interfacing
+1. Real-time vibration detection
+2. 10-level LED indication
+3. Analog signal visualization
+4. Low-cost implementation
+5. Easy sensor interfacing
 
 Components Used
 
