@@ -31,7 +31,7 @@ ________________________________________
 Project Picture
 
 <img width="346" height="412" alt="Project Picture" src="https://github.com/user-attachments/assets/5f5857e2-026f-4cb2-aefb-3163975dc0fc" />
-__________________________________________
+_______________________________________________
 IC Data Sheet and Pin Diagram
 
 <img width="532" height="492" alt="IC LM3915" src="https://github.com/user-attachments/assets/f830d2e3-5176-4b1e-9d65-03dac8f5dd07" />
@@ -65,7 +65,7 @@ A piezo transducer is a type of electronic component that converts elec-trical e
 Piezo Element (35mm) Data Sheet
 
 <img width="520" height="346" alt="Piezo Element Data Sheet" src="https://github.com/user-attachments/assets/c70a4192-07e8-40bf-ba90-4ca0f28fd366" />
---------------------------------
+___________________________________
 Practical Applications
 
 Vibration meter is used in manufacturing for machine condition monitoring, product testing and quality assurance. Many ma-chine maintenance technicians use vibration meter devices in tandem with sound level meters to analyze frequency. A vibra-tion meter also can be used in civil ngineering to measure the vibration of structures such as buildings, roads, bridges, railway tracks, airport quarries and other heavy industrial areas. Along with this building experiences vibration due to natural causes such as wind, weather, earthquakes, or internal components like elevator, ventilation and HVAC systems. Thus, vibration testing helps to identify building areas that are at higher risk due to vibration. In addition, specialized vibration meter devices can be used to measure the vibration of the human body. Any vibration meter will measure one or more of the following parameters: vibration acceleration, vibration velocity (speed) and/or vibra-tion displacement.
