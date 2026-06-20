@@ -2,7 +2,7 @@
 Overview
 
 A vibration monitoring system using a piezoelectric sensor and LM3915 LED driver IC. The system converts mechanical vibrations into electrical signals and displays vibration intensity through a 10-level LED bar graph.
-_
+__________________________
 Components Used
 1. LM3915 IC
 2. Piezoelectric Transducer
@@ -11,12 +11,12 @@ Components Used
 5. Capacitors
 6. Power Supply 12V and 3.3V
 7. Wires for connection
-
+___________________________
 Circuit Diagram
 
 <img width="523" height="493" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/28416ccb-9497-41c3-91a7-a33af183560c" />
 
-
+_____________________________
 Detailed Working Principle of The Project Circuit
 
 The circuit uses LM3915 IC. LM3915 is a led driver chip which is capable of supplying steady current to LED and eliminates the need for resistors. The LM3915 is an 18 pin DIP. In which pin 10 pins are dedicated to drive LED's by sinking current from it. The working of this vibration meter circuit starts with Piezo elec-tric transducer detects the vibrations created on any surface it is place. The vibrations it experience will produce a voltage across it. Capacitor C1 and Resistor R2 stabilizes the voltage develop by the transducer. The signal pin 5 of LM3915 takes the input voltage from the piezo electric transducer and feed it to the inverting terminal of the comparator that is within the IC LM3915. The high reference voltage is fixed to 1.25V which is the internal ref-erence voltage of LM3915. This is because piezo electric trans-ducer is unlikely to develop higher voltage levels and 0 to 1.25V will give us a good working range to detect vibrations. Pin 8 is used to change the reference voltage. Here we do not intend to use this pin, so it is connected to ground and reference voltage remains the same 1.25V. We can change the reference voltage by keeping a voltage divider circuit to pin 8. When the voltage developed across piezo electric transducer is greater than voltage that is fixed at non inverting pins of internal comparators. The output of the comparator goes low, this will allow to sink the current from LEDs into the output pins. And therefore the LEDs light up. The Iring up sequence goes from pin 1, 18, 17, ...pin 10 a 4/10 je across the piezo goes up. This in turn will make the court to operate as a vibration meter that progres-sively lights up LED's as vibration intensity goes up. The step voltage to light up each LED's from pin 1, 18,17...10 is given in the below table-
@@ -27,11 +27,11 @@ As stated earlier LM3915 led driver chip delivers steady current through the LED
 1-1.25/625
 = 2mA current.
 It means the current through 625 ohm resistor is 2mA. Therefore current through LED's will be 10 times that of ohm res current through 625 ohm. It means LM3915 will deliver 10*2 mA or 20mA current to LED's. It is equal to 20mA current.
-
+________________________________________
 Project Picture
 
 <img width="346" height="412" alt="Project Picture" src="https://github.com/user-attachments/assets/5f5857e2-026f-4cb2-aefb-3163975dc0fc" />
-
+__________________________________________
 IC Data Sheet and Pin Diagram
 
 <img width="532" height="492" alt="IC LM3915" src="https://github.com/user-attachments/assets/f830d2e3-5176-4b1e-9d65-03dac8f5dd07" />
@@ -49,7 +49,7 @@ Specifications:
 7. LED sink current: 1mA to 30mA (programmable)
 8. Both Dot/Bar mode available
 9. Available in 18-pin DIP, PLCC package 7/10
-
+__________________________________
 Sensor Details
 
 Construction:
@@ -65,7 +65,7 @@ A piezo transducer is a type of electronic component that converts elec-trical e
 Piezo Element (35mm) Data Sheet
 
 <img width="520" height="346" alt="Piezo Element Data Sheet" src="https://github.com/user-attachments/assets/c70a4192-07e8-40bf-ba90-4ca0f28fd366" />
-
+--------------------------------
 Practical Applications
 
 Vibration meter is used in manufacturing for machine condition monitoring, product testing and quality assurance. Many ma-chine maintenance technicians use vibration meter devices in tandem with sound level meters to analyze frequency. A vibra-tion meter also can be used in civil ngineering to measure the vibration of structures such as buildings, roads, bridges, railway tracks, airport quarries and other heavy industrial areas. Along with this building experiences vibration due to natural causes such as wind, weather, earthquakes, or internal components like elevator, ventilation and HVAC systems. Thus, vibration testing helps to identify building areas that are at higher risk due to vibration. In addition, specialized vibration meter devices can be used to measure the vibration of the human body. Any vibration meter will measure one or more of the following parameters: vibration acceleration, vibration velocity (speed) and/or vibra-tion displacement.
