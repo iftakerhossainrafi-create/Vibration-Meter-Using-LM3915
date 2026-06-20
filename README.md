@@ -17,3 +17,13 @@ Components Used
 4. Resistors
 5. Capacitors
 6. Power Supply
+
+Working Principle
+
+The piezoelectric sensor generates voltage proportional to mechanical vibration. The LM3915 processes this signal and drives LEDs according to signal amplitude, providing a visual representation of vibration intensity.
+
+Applications
+1. Machine condition monitoring
+2. Vibration analysis
+3. Educational instrumentation projects
+4. Industrial monitoring
