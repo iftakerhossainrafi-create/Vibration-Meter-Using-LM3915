@@ -27,3 +27,4 @@ Applications
 2. Vibration analysis
 3. Educational instrumentation projects
 4. Industrial monitoring
+<img width="661" height="612" alt="Screenshot 2026-06-20 052257" src="https://github.com/user-attachments/assets/1eac8894-8e7a-4302-935b-3de59f07b73e" />
